@@ -3,7 +3,6 @@
 ## Project Overview
 This project suggests designing and implementing a custom **Neural Engine Accelerator** that works with the open-source Microwatt CPU core. The goal of the accelerator is to efficiently perform real-time inference of small neural networks, optimized for edge AI applications like sensor data classification. This hardware accelerator will take on neural network computations from the Microwatt CPU, enabling low-power and low-latency AI processing on embedded platforms.
 
-## Problem Statement
 Many edge computing devices need AI inference capabilities but struggle with power and performance when they depend on general-purpose processors. This project aims to fill that gap by proposing a dedicated neural engine that speeds up matrix multiplications and activation functions. This will help Microwatt-based systems handle AI tasks more effectively.
 
 ## Proposed Features
@@ -18,14 +17,7 @@ Many edge computing devices need AI inference capabilities but struggle with pow
 - Verilog HDL for RTL design  
 - Open-source FPGA tools: Yosys, GHDL, Verilator, NextPNR  
 - OpenLane chipIgnite flow for ASIC fabrication preparation  
-- GCC for POWER and GDB for software development  
-
-## Timeline and Next Steps
-- Initial architecture and design exploration before the hackathon final design submission  
-- Verilog coding of the neural accelerator modules  
-- Integration and testing with the Microwatt CPU simulation environment  
-- Synthesis and layout preparation using open-source tools  
-- Documentation and video demonstration preparation  
+- GCC for POWER and GDB for software development   
 
 ## AI Assistance Disclosure
 Prompts and interactions will be documented here and included if applicable.
