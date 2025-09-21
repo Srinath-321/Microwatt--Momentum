@@ -8,16 +8,7 @@ Many edge computing devices need AI inference capabilities but struggle with pow
 ## Proposed Features
 - Verilog-based neural accelerator design, focusing on fixed-point arithmetic  
 - Smooth interface with the Microwatt CPU core for offloading neural computations  
-- Target applications include sensor classification, anomaly detection, and low-power AI inference  
-- Design will adhere to open-source practices to align with ChipFoundry’s SKY130 fabrication process  
-- Detailed RTL testbenches and verification strategy planned  
-
-## Technology Stack
-- Microwatt CPU Core (OpenPOWER ISA)  
-- Verilog HDL for RTL design  
-- Open-source FPGA tools: Yosys, GHDL, Verilator, NextPNR  
-- OpenLane chipIgnite flow for ASIC fabrication preparation  
-- GCC for POWER and GDB for software development   
+- Target applications include sensor classification, anomaly detection, and low-power AI inference   
 
 ## AI Assistance Disclosure
 Prompts and interactions will be documented here and included if applicable.
