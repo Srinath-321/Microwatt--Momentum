@@ -1,4 +1,4 @@
-# Neural Engine Accelerator Proposal for Microwatt Hackathon
+# Neural Engine Accelerator
 
 ## Project Overview
 This project suggests designing and implementing a custom **Neural Engine Accelerator** that works with the open-source Microwatt CPU core. The goal of the accelerator is to efficiently perform real-time inference of small neural networks, optimized for edge AI applications like sensor data classification. This hardware accelerator will take on neural network computations from the Microwatt CPU, enabling low-power and low-latency AI processing on embedded platforms.
